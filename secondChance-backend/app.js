@@ -25,12 +25,12 @@ app.use(express.json());
 
 // authRoutes Step 2: import the authRoutes and store in a constant called authRoutes
 //{{insert code here}}
-
+const searchRoutes = require('./routes/searchRoutes');
 // Items API Task 1: import the secondChanceItemsRoutes and store in a constant called secondChanceItemsRoutes
 app.use('/api/secondchance/search', searchRoutes);
 
 // Search API Task 1: import the searchRoutes and store in a constant called searchRoutes
-const searchRoutes = require('./routes/searchRoutes');
+
 
 
 
